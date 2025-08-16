@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'video_player_page.dart';
 
 void main() {
   runApp(ClipifyApp());
@@ -9,10 +10,8 @@ class ClipifyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Clipify',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: HomePage(),
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: VideoPlayerPage(),
     );
   }
 }
