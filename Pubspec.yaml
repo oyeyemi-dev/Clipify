@@ -8,7 +8,11 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.17.0 <3.0.0"
 
-dependencies:
+dependencies:dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^8.0.0
+  video_player: ^2.8.6
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
